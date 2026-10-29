@@ -6,7 +6,7 @@ Free, browser-based practice tests for IT certifications. The first exam include
 
 
 
-\*\*Live site:\*\* https://YOUR\_USERNAME.github.io/cert-practice-hub/
+\*\*Live site:\*\* https://undiscovered-genius.github.io/cert-practice-hub/
 
 
 
