@@ -11,6 +11,7 @@ Free, browser-based practice tests for IT certifications. The first exam include
 - Single-answer questions use radio buttons and multi-select questions use checkboxes
 - **Check answers** shows correct options in green and wrong picks in red, with an explanation
 - **Partial credit** on multi-select questions: each correct option is one point, so a question with two right answers is worth two points. Picking one right and one wrong earns 1 of 2.
+- **Exam timer:** choose 30, 45, 60, 75, 90, 105 (default) or 120 minutes on the home page. The countdown turns red in the last 5 minutes and the test is submitted automatically at zero. If you leave a test or close the page, the time pauses and resumes where you left off.
 - Pass or fail result using an 80% pass mark
 - **Review answers** after a test shows every question with your picks, the correct answers and the reasons
 - **Share score** button on the result screen (phone share sheet, or copies to the clipboard)
@@ -62,7 +63,6 @@ This is an independent study project. It is not affiliated with or endorsed by M
 
 ## Roadmap
 
-- Timed exam mode
 - Review answers for past attempts from the history table
 - Retake-mistakes-only test
 - More exams (one folder per exam, each with its own history)
