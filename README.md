@@ -13,7 +13,7 @@ Free, browser-based practice tests for IT certifications. The first exam include
 - **Partial credit** on multi-select questions: each correct option is one point, so a question with two right answers is worth two points. Picking one right and one wrong earns 1 of 2.
 - **Exam timer:** choose 30, 45, 60, 75, 90, 105 (default) or 120 minutes on the home page. The countdown turns red in the last 5 minutes and the test is submitted automatically at zero. If you leave a test or close the page, the time pauses and resumes where you left off.
 - Pass or fail result using an 80% pass mark
-- **Review answers** after a test shows every question with your picks, the correct answers and the reasons
+- **Review answers** after a test shows every question with your picks, the correct answers and the reasons. You can also reopen the review of any past attempt from the **Review** button in the history table
 - **Share score** button on the result screen (phone share sheet, or copies to the clipboard)
 
 ### Study tools
@@ -41,7 +41,7 @@ Ingest & Spark, Lakehouse & Delta, Real-Time Intelligence, Data Warehouse, Secur
 
 ## How your data is stored
 
-Scores and in-progress tests are saved in your browser's local storage on your own device. They stay after a refresh but do not sync between devices or browsers, and clearing your browser's site data removes them. Use **Export progress** to keep a backup or move to another device (the export contains score history, KPIs and chart data, but not an unfinished test or your selected answers). There is no server, no account and no tracking.
+Scores and in-progress tests are saved in your browser's local storage on your own device. Your picks for each finished test (used for reviewing past attempts) are saved there too. They stay after a refresh but do not sync between devices or browsers, and clearing your browser's site data removes them. Use **Export progress** to keep a backup or move to another device (the export contains score history, KPIs and chart data, but not an unfinished test or your picks for past attempts, so reviews only work on the device where the test was taken). There is no server, no account and no tracking.
 
 ## Run locally
 
@@ -63,6 +63,5 @@ This is an independent study project. It is not affiliated with or endorsed by M
 
 ## Roadmap
 
-- Review answers for past attempts from the history table
 - Retake-mistakes-only test
 - More exams (one folder per exam, each with its own history)
