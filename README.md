@@ -36,13 +36,19 @@ Free, browser-based practice tests for IT certifications. The first exam include
 - Works offline after the first visit
 - Light and dark mode follow your device
 
+### Site analytics (optional)
+- An **Analytics** button opens your [GoatCounter](https://www.goatcounter.com) dashboard (visitors, referrers, countries, devices, and custom events such as which practice test is started or finished).
+- Enable it by setting your site code in `index.html`: `const GC='your-code';`. Leave it empty to turn all tracking off.
+- No cookies and no personal data. Events are plain labels (for example `start-practice-test-2`) and never include answers or scores.
+- To ignore your own visits, run `localStorage.setItem('skipgc','t')` once in your browser console.
+
 ## Topics covered
 
 Ingest & Spark, Lakehouse & Delta, Real-Time Intelligence, Data Warehouse, Security & Governance, CI/CD & Monitoring
 
 ## How your data is stored
 
-Scores and in-progress tests are saved in your browser's local storage on your own device. Your picks for each finished test (used for reviewing past attempts) are saved there too. They stay after a refresh but do not sync between devices or browsers, and clearing your browser's site data removes them. Use **Export progress** to keep a backup or move to another device (the export contains score history, KPIs and chart data, but not an unfinished test or your picks for past attempts, so reviews only work on the device where the test was taken). There is no server, no account and no tracking.
+Scores and in-progress tests are saved in your browser's local storage on your own device. Your picks for each finished test (used for reviewing past attempts) are saved there too. They stay after a refresh but do not sync between devices or browsers, and clearing your browser's site data removes them. Use **Export progress** to keep a backup or move to another device (the export contains score history, KPIs and chart data, but not an unfinished test or your picks for past attempts, so reviews only work on the device where the test was taken). There is no server and no account. If you enable the optional GoatCounter analytics, only anonymous usage counts are collected.
 
 ## Run locally
 
