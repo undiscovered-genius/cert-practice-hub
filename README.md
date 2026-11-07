@@ -19,7 +19,7 @@ Free, browser-based practice tests for IT certifications. The first exam include
 ### Study tools
 - **Custom test builder:** choose topics and a number of questions (5 to 50), drawn at random from all sets
 - **Question bank browser:** search every question and filter by topic, with correct answers and explanations
-- **Cheat sheet:** a scrollable last-minute revision page covering all five learning-path sections, with jump links and a list of common exam traps
+- **Cheat sheet:** a scrollable last-minute revision page covering all five learning-path sections, with jump links, decision tables (which ingestion, store, streaming, security or CI/CD option to pick, and who can do what by workspace role) and a list of common exam traps
 - **Flag for review** and a **question navigator grid** to jump to any question
 - **Resume an unfinished test:** progress is saved automatically, so a refresh or closed tab loses nothing
 - **Keyboard shortcuts:** `1-9` select an option, `Enter` check or next, `F` flag, left and right arrows move between questions
